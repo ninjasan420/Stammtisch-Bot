@@ -7,7 +7,7 @@ Der Bot für den Discord Stammtisch
 
 1. Lade das repo als ein .zip file herunter und entpacke den Inhalt, wohin du möchtest.
 
-2. Öffne einen Termin im Projekt, z.B.: `cd C:\github\d.js-boilerplate-master`
+2. Öffne einen Termin im Projekt, z.B.: `cd C:\github\stammtisch-bot-master`
 und tippe: `npm install` um den Bot zu installieren
 
 **WICHTIG**
