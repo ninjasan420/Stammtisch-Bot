@@ -11,6 +11,7 @@ Der Bot für den Discord Stammtisch
 und tippe: `npm install` um den Bot zu installieren
 
 **WICHTIG**
+
 Um `node-opus` zu installieren, musst du `windows-build-tools` installiert haben. Dies funktioniert so: `npm install -g --production windows-build-tools`
 
 Ausserdem brauchst du `FFMPEG`, welches du so installieren kannst: `npm install -g ffmpeg-binaries`
