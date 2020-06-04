@@ -74,4 +74,6 @@ client.on('ready', () => {
 // login
 client.login(process.env.BOT_TOKEN);
 // listen port um auf heroku zu laufen
+
+
 const PORT = process.env.PORT || 5000
