@@ -18,8 +18,9 @@
     "author": "ninjasan420",
     "license": "MIT",
     "dependencies": {
-        "node": "^12.18.x",
+        "node": "^12.18.0",
         "discord.js": "^11.1.0",
-        "glob": "^7.1.2"
+        "glob": "^7.1.2",
+        "node-opus": "^0.2.6"
     }
 }
