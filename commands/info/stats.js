@@ -1,19 +1,15 @@
 const { RichEmbed } = require('discord.js');
-// Make sure to export properties
 module.exports = {
-    name: 'stats', // Command name (what's gonna be used to call the command)
+    name: 'stats',
 
     execute(client, message) {
-        // Construct info embed
         const embed = new RichEmbed()
-        .setTitle('About')
-        .setColor('RANDOM')
-        .setDescription('Stats about this bot')
-        .addField('Created', client.user.createdAt)
-        .addField('Heap Usage', `${Math.round(process.memoryUsage().heapUsed / 1048576)}mb`, true) // 1048576 = size of an mb in bytes
-        .addField('Uptime', formatTime(process.uptime()), true)
-        .setFooter('Discord Example Bot', client.user.displayAvatarURL);
-        // Send message
+            .setTitle('About')
+            .setColor('RANDOM')
+            .setDescription('Stats about this bot')
+            .addField('Created', client.user.createdAt)
+            .addField('Uptime', formatTime(process.uptime()), true)
+            .setFooter('Stammtisch Bot', client.user.displayAvatarURL);
         message.channel.send({ embed });
     }
 };
