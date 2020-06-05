@@ -1,6 +1,6 @@
 const axios = require('axios')
-const redditPostToEmbed = require('../utils/redditPostToEmbed')
-const log = require('../utils/log')
+const redditPostToEmbed = require('../utils/redditPostToEmbed.js')
+const log = require('../utils/log.js')
 
 async function find(message) {
     let mes = message.content.slice(14)
