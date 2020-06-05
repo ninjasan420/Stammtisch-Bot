@@ -20,6 +20,7 @@
     "dependencies": {
         "node": "^12.18.0",
         "discord.js": "^11.1.0",
-        "glob": "^7.1.2"
+        "glob": "^7.1.2",
+        "axios": "^0.18.x"
     }
 }
