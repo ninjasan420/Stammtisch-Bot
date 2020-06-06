@@ -11,7 +11,7 @@ const client = new Discord.Client();
 function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
         .then(res => res.json())
-        .then(json => json.data.children(v => v.data.url))
+        .then(json => json.data.children.map(v => v.data.url))
         .then(urls => postRandomCutie(urls));
 }
 
