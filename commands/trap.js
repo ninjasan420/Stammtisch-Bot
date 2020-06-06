@@ -2,8 +2,10 @@ module.exports = {
     name: 'trap',
     aliases: ['traps']
 }
+
 const Discord = require('discord.js');
 const { RichEmbed } = require('discord.js');
+const fetch = require('node-fetch');
 const client = new Discord.Client();
 
 client.on('message', message => {
@@ -17,14 +19,17 @@ function loadCuties() {
         .then(urls => postRandomCutie(urls));
 }
 
-console.log(urls[0]);
+// console.log(urls[0]);
 
 function postRandomCutie(urls) {
-    const randomURL = urls[Math.floor(Math.random() * urls.length) + 1];
-    const embed = new Discord.RichEmbed({
-        image: {
-            url: randomURL
-        }
-    });
+    /*
+    console.log("Log urls: " + urls[1]);
+    let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1; 
+    let randomURL = urls[randomNumber].data.preview.images[0].source.url;
+    console.log("Log source url: " + randomURL);
+    */
+    let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
+    let imageURL = urls[randomNumber];
+    // console.log("RandomURL: " + imageURL);
     message.channel.send(embed);
 }
