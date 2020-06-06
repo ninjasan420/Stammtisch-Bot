@@ -1,12 +1,3 @@
-module.exports = {
-    name: 'trap',
-    aliases: ['traps'],
-
-    execute(client, message, args) {
-        loadCuties();
-    }
-}
-
 const fetch = require('node-fetch');
 
 function loadCuties() {
@@ -31,4 +22,13 @@ function postRandomCutie(urls) {
 
     console.log("RandomURL: " + imageURL);
     message.channel.send(imageURL);
+}
+
+module.exports = {
+    name: 'trap',
+    aliases: ['traps'],
+
+    execute(client, message, args) {
+        loadCuties();
+    }
 }
