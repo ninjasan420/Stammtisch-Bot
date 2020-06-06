@@ -31,5 +31,5 @@ function postRandomCutie(urls) {
     let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
     let imageURL = urls[randomNumber];
     // console.log("RandomURL: " + imageURL);
-    message.channel.send(embed);
+    // message.channel.send(embed);
 }
