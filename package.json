@@ -10,17 +10,17 @@
     "keywords": [
         "discord",
         "bot",
-        "example",
-        "example",
+        "discord.js",
         "discord",
         "bot"
     ],
     "author": "ninjasan420",
     "license": "MIT",
     "dependencies": {
-        "node": "^12.18.0",
-        "discord.js": "^11.1.0",
+        "node": "^12.18.x",
+        "discord.js": "^11.1.x",
         "glob": "^7.1.2",
-        "axios": "^0.18.x"
+        "axios": "^0.18.x",
+        "node-fetch": "^2.6.x"
     }
 }
