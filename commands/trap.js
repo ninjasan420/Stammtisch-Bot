@@ -1,4 +1,9 @@
-const Discord = require('discord.js');
+module.exports = {
+    name: 'trap',
+    aliases: ['traps']
+}
+
+const { RichEmbed } = require('discord.js');
 const client = new Discord.Client();
 
 client.on('message', message => {
