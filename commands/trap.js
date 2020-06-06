@@ -13,9 +13,11 @@ client.on('message', message => {
 function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
         .then(res => res.json())
-        .then(json => json.data.children.map(v => v.data.url))
+        .then(json => json.data.children(v => v.data.url))
         .then(urls => postRandomCutie(urls));
 }
+
+console.log(urls[0]);
 
 function postRandomCutie(urls) {
     const randomURL = urls[Math.floor(Math.random() * urls.length) + 1];
