@@ -1,11 +1,9 @@
-module.exports = {
-    name: 'trap', // command name - wird nach prefix angeführt
-    aliases: ['schwulis'], //
-}
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-execute(client, message)
+client.on('message', message => {
+    if (message.content === '§trap') loadCuties(message);
+});
 
 function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
