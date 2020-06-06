@@ -37,7 +37,7 @@ loadCommands('commands');
 
 // client ready event
 client.on('ready', () => {
-    client.user.setActivity('Bier masterrace')
+    // client.user.setActivity('Bier masterrace')
     console.log('Bot is ready...');
 })
 
