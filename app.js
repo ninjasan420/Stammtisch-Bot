@@ -67,7 +67,7 @@ client.on('ready', () => {
         if (!command) return;
 
         // wenn existiert, führe aus
-        command.execute(client, message, args);
+        command.run(client, message, args);
         console.log(`Ran command: ${command.name}`); // command wird geprinted
     } catch (err) {
         console.error(err);
