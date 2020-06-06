@@ -7,10 +7,7 @@ module.exports = {
     }
 }
 
-const Discord = require('discord.js');
-const { RichEmbed } = require('discord.js');
 const fetch = require('node-fetch');
-const client = new Discord.Client();
 
 function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
@@ -32,6 +29,6 @@ function postRandomCutie(urls) {
     let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
     let imageURL = urls[randomNumber];
 
-    // console.log("RandomURL: " + imageURL);
+    console.log("RandomURL: " + imageURL);
     message.channel.send(imageURL);
 }
