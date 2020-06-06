@@ -8,15 +8,7 @@ function loadCuties(message) {
         .catch(error => console.log(error.message));
 }
 
-// console.log(urls[0]);
-
 function postRandomCutie(urls, message) {
-    /*
-    console.log("Log urls: " + urls[1]);
-    let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1; 
-    let randomURL = urls[randomNumber].data.preview.images[0].source.url;
-    console.log("Log source url: " + randomURL);
-    */
     let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
     let imageURL = urls[randomNumber];
 
