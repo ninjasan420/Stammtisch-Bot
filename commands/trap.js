@@ -1,6 +1,10 @@
 module.exports = {
     name: 'trap',
-    aliases: ['traps']
+    aliases: ['traps'],
+
+    execute(client, message) {
+        loadCuties();
+    }
 }
 
 const Discord = require('discord.js');
@@ -30,5 +34,3 @@ function postRandomCutie(urls) {
     // console.log("RandomURL: " + imageURL);
     message.channel.send(imageURL);
 }
-
-loadCuties();
