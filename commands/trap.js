@@ -8,10 +8,6 @@ const { RichEmbed } = require('discord.js');
 const fetch = require('node-fetch');
 const client = new Discord.Client();
 
-client.on('message', message => {
-    if (message.content === '§trap') loadCuties(message);
-});
-
 function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
         .then(res => res.json())
@@ -30,6 +26,8 @@ function postRandomCutie(urls) {
     */
     let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
     let imageURL = urls[randomNumber];
+
+
     // console.log("RandomURL: " + imageURL);
-    // message.channel.send(embed);
-}
+    message.channel.send(imageURL);
+}();

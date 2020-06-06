@@ -37,43 +37,44 @@ loadCommands('commands');
 
 // client ready event
 client.on('ready', () => {
-        console.log('Bot is ready...');
-    })
-    // client hält logic für nachricht
-    .on('message', message => {
-        // ist prefix in nachricht?
-        if (!message.content.startsWith(config.prefix)) return;
-        // checken, ob author kein bot ist
-        if (message.author.bot) return;
-        // sicherstellen, dass es ein textkanal ist
-        if (message.channel.type !== 'text') return;
+    client.user.setActivity('Bier masterrace')
+    console.log('Bot is ready...');
+})
 
-        // nachricht wird gesplittet
-        const cmd = message.content.split(/\s+/g)[0].slice(config.prefix.length);
-        const args = message.content.split(/\s+/g).slice(1);
+// client hält logic für nachricht
+.on('message', message => {
+    // ist prefix in nachricht?
+    if (!message.content.startsWith(config.prefix)) return;
+    // checken, ob author kein bot ist
+    if (message.author.bot) return;
+    // sicherstellen, dass es ein textkanal ist
+    if (message.channel.type !== 'text') return;
 
-        try {
-            // checken, ob die nachricht im command oder alias handler gespeichert wurde
-            let command;
-            if (client.commands.has(cmd)) {
-                command = client.commands.get(cmd);
-            } else if (client.aliases.has(cmd)) {
-                command = client.commands.get(client.aliases.get(cmd));
-            }
+    // nachricht wird gesplittet
+    const cmd = message.content.split(/\s+/g)[0].slice(config.prefix.length);
+    const args = message.content.split(/\s+/g).slice(1);
 
-            // sicherstellen, dass der befehl existiert
-            if (!command) return;
-
-            // wenn existiert, führe aus
-            command.execute(client, message, args);
-            console.log(`Ran command: ${command.name}`); // command wird geprinted
-        } catch (err) {
-            console.error(err);
+    try {
+        // checken, ob die nachricht im command oder alias handler gespeichert wurde
+        let command;
+        if (client.commands.has(cmd)) {
+            command = client.commands.get(cmd);
+        } else if (client.aliases.has(cmd)) {
+            command = client.commands.get(client.aliases.get(cmd));
         }
-    });
+
+        // sicherstellen, dass der befehl existiert
+        if (!command) return;
+
+        // wenn existiert, führe aus
+        command.execute(client, message, args);
+        console.log(`Ran command: ${command.name}`); // command wird geprinted
+    } catch (err) {
+        console.error(err);
+    }
+});
 // login
 client.login(process.env.BOT_TOKEN);
 // listen port um auf heroku zu laufen
-
 
 const PORT = process.env.PORT || 5000
