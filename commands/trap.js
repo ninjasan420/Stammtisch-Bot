@@ -2,7 +2,7 @@ module.exports = {
     name: 'trap',
     aliases: ['traps'],
 
-    execute(client, message) {
+    execute(client, message, args) {
         loadCuties();
     }
 }
@@ -16,7 +16,8 @@ function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
         .then(res => res.json())
         .then(json => json.data.children.map(v => v.data.url))
-        .then(urls => postRandomCutie(urls));
+        .then(urls => postRandomCutie(urls))
+        .catch(error => console.log(error.message));
 }
 
 // console.log(urls[0]);
