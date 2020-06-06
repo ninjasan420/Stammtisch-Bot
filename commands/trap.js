@@ -5,9 +5,7 @@ module.exports = {
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-execute(client, loadCuties.message)
-if (message.content === '§trap') loadCuties(message);
-
+execute(client, message)
 
 function loadCuties() {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=all')
