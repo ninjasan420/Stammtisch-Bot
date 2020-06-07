@@ -11,16 +11,18 @@
         "discord",
         "bot",
         "discord.js",
-        "discord",
         "bot"
     ],
-    "author": "ninjasan420",
+    "author": "ninjasan420, PossumInABox",
     "license": "MIT",
     "dependencies": {
         "axios": "^0.18.x",
         "discord.js": "^11.6.4",
         "glob": "^7.1.2",
         "node": "^12.18.x",
-        "node-fetch": "^2.6.x"
+        "node-fetch": "^2.6.x",
+        "mongoose": "^5.9.17",
+        "discord.js-commando": "github:discordjs/Commando",
+        "@vitalets/google-translate-api": "^3.0.0"
     }
 }
