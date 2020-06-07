@@ -13,12 +13,11 @@ function postRandomCutie(urls, message) {
 
     let myEmbed = {
         title: urls[randomNumber].title,
-        url: urls[randomNumber].permalink,
+        url: 'https://reddit.com' + urls[randomNumber].permalink,
         image: {
             url: urls[randomNumber].url,
         }
     };
-
     message.channel.send({ embed: myEmbed });
 }
 
