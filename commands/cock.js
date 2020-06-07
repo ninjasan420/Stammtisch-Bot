@@ -31,7 +31,7 @@ module.exports = {
     execute(client, message, args) {
         try {
             loadCuties(message);
-        } catch(err) {
+        } catch (err) {
             console.log(err);
         }
     }
