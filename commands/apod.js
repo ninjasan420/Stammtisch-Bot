@@ -41,3 +41,5 @@ module.exports = class spCommand extends Command {
         message.channel.send({ embed })
     }
 };
+
+console.log()
