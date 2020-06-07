@@ -20,9 +20,6 @@ function postMessage(apiResponse, message) {
             url: 'https://www.nasa.gov',
         },
         description: apiResponse.explanation,
-        thumbnail: {
-            url: 'https://i.imgur.com/wSTFkRM.png',
-        },
         image: {
             url: apiResponse.url,
         },
