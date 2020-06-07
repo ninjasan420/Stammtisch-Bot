@@ -29,7 +29,7 @@ Prefix: **§**
 
 §trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post
 
-§trap - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post
+§pussy - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post
 
 §echo - echo
 
