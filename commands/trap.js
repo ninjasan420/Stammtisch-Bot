@@ -14,11 +14,14 @@ function postRandomCutie(urls, message) {
 
     console.log("RandomURL: " + imageURL);
 
-    const embed = new Discord.MessageEmbed()
-        .setTitle('Notices your cute bulge UwU')
-        .setImage(imageURL);
+    let myEmbed = {
+        title: 'Notices your cute bulge UwU',
+        image: {
+            url: imageURL,
+        }
+    };
 
-    message.channel.send(embed);
+    message.channel.send({ embed: myEmbed });
 }
 
 module.exports = {
