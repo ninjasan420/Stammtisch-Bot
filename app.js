@@ -35,14 +35,14 @@ function loadCommands(cmdDir) {
 // ausführen und passen eines commands
 loadCommands('commands');
 
-client.user.setActivity(config.bot_settings.bot_status);
-
 // client ready event
 client.on('ready', () => {
     console.log('Bot is ready...');
     client.channels.get(`718459138513961013`).send(`Master Bot wurde deployed & ist ready`)
     client.channels.get(`718974305660305418`).send(`Dev Bot wurde deployed & ist ready`)
 })
+
+client.user.setActivity(config.bot_settings.bot_status);
 
 // client hält logic für nachricht
 .on('message', message => {
