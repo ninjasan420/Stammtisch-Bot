@@ -1,4 +1,3 @@
-const { Command } = require('discord.js-commando');
 const Discord = require('discord.js');
 const axios = require('axios');
 
@@ -41,5 +40,3 @@ module.exports = class spCommand extends Command {
         message.channel.send({ embed })
     }
 };
-
-console.log()
