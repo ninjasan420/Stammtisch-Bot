@@ -37,12 +37,13 @@ loadCommands('commands');
 
 // client ready event
 client.on('ready', () => {
-    // client.user.setActivity('Bier masterrace')
     console.log('Bot is ready...');
+
+    client.user.setActivity(config.bot_settings.bot_status);
+
     client.channels.get(`718459138513961013`).send(`Master Bot wurde deployed & ist ready`)
     client.channels.get(`718974305660305418`).send(`Dev Bot wurde deployed & ist ready`)
 })
-
 
 
 // client hält logic für nachricht
