@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const Discord = require('discord.js');
 
 function loadCuties(message) {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=day')
@@ -13,7 +14,12 @@ function postRandomCutie(urls, message) {
     let imageURL = urls[randomNumber];
 
     console.log("RandomURL: " + imageURL);
-    message.channel.send(imageURL);
+
+    const embed = new Discord.MessageEmbed()
+        .setTitle('Notices your cute bulge UwU')
+        .setImage(imageURL);
+
+    message.channel.send(embed);
 }
 
 module.exports = {
