@@ -15,14 +15,20 @@ Prefix: **§**
 ### Info
 
 §about - Infos über den Bot
+
 §help - zeigt verfügbare Befehle an
+
 §stats - uptime, etc
+
 §ping - Ping zu heroku
+
 
 ### Fun & commands
 
 §cock - pullt von [r/ratemycock](https://old.reddit.com/r/ratemycock/ "r/ratemycock") einen random Post
+
 §trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post
+
 §echo - echo
 
 
