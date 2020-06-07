@@ -10,6 +10,9 @@ function loadCuties(message) {
 
 function postRandomCutie(urls, message) {
     let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
+    if (urls[randomNumber].pinned === true) {
+        randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
+    }
 
     let myEmbed = {
         title: urls[randomNumber].title,
