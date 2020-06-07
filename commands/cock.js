@@ -21,6 +21,10 @@ module.exports = {
     aliases: ['cocks'],
 
     execute(client, message, args) {
-        loadCuties(message);
+        try {
+            loadCuties(message);
+        } catch(err) {
+            console.log(err);
+        }
     }
 }
