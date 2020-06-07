@@ -35,6 +35,8 @@ function loadCommands(cmdDir) {
 // ausführen und passen eines commands
 loadCommands('commands');
 
+client.user.setActivity(config.bot_settings.bot_status);
+
 // client ready event
 client.on('ready', () => {
     console.log('Bot is ready...');
