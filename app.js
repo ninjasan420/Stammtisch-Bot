@@ -1,5 +1,5 @@
 // abhängigkeiten
-const { Client, Collection } = require('discord.js');
+const { Discord, Client, Collection } = require('discord.js');
 const path = require('path');
 const glob = require('glob');
 

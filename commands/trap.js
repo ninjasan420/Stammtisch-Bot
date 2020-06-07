@@ -1,5 +1,4 @@
 const fetch = require('node-fetch');
-const Discord = require('discord.js');
 
 function loadCuties(message) {
     fetch('https://www.reddit.com/r/traps.json?limit=100&?sort=top&t=day')
