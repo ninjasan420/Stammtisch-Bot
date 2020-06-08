@@ -33,6 +33,8 @@ Prefix: **§**
 
 §pussy - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post
 
+w - pullt von [r/wortwitzkasse](https://old.reddit.com/r/wortwitzkasse/ "r/wortwitzkasse") einen random Post
+
 §echo - echo
 
 
