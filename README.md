@@ -8,34 +8,34 @@
 # Stammtisch Bot
 Der Bot für den Discord Stammtisch
 
-Prefix: **§** 
+Prefix: **?** 
 
 ## Commands:
 
 ### Info
 
-§about - Infos über den Bot
+?about - Infos über den Bot
 
-§help - zeigt verfügbare Befehle an
+?help - zeigt verfügbare Befehle an
 
-§stats - uptime, etc
+?stats - uptime, etc
 
-§ping - Ping zu heroku
+?ping - Ping zu heroku
 
 
 ### Fun & commands
 
-§pod - Postet das NASA Picture of the day
+?pod - Postet das NASA Picture of the day
 
-§cock - pullt von [r/ratemycock](https://old.reddit.com/r/ratemycock/ "r/ratemycock") einen random Post
+?cock - pullt von [r/ratemycock](https://old.reddit.com/r/ratemycock/ "r/ratemycock") einen random Post
 
-§trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post
+?trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post
 
-§pussy - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post
+?pussy - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post
 
-w - pullt von [r/wortwitzkasse](https://old.reddit.com/r/wortwitzkasse/ "r/wortwitzkasse") einen random Post
+?ww - pullt von [r/wortwitzkasse](https://old.reddit.com/r/wortwitzkasse/ "r/wortwitzkasse") einen random Post
 
-§echo - echo
+?echo - echo
 
 
 
