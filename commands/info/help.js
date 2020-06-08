@@ -11,7 +11,7 @@ module.exports = {
             .setColor('RANDOM')
             .setAuthor('Commands')
             .setDescription(cmdStr)
-            .setImage('https://brauen.de/media/image/cb/80/65/Die-Krone-des-Bieres-Wie-entsteht-der-Schaum-auf-dem-Bier.jpg')
+            .setImage(client.user.displayAvatarURL)
             .setFooter('© ŇƗŇĴΔ ŞΔŇ🐸#1337,ipear42#0384');
         message.channel.send({ embed });
     }
