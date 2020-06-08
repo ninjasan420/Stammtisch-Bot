@@ -7,7 +7,7 @@ module.exports = {
             .setTitle('About')
             .setColor('RANDOM')
             .setDescription('Stats about this bot')
-            .addField('Created', client.user.createdAt)
+            .addField('Erstellt', client.user.createdAt)
             .addField('Uptime', formatTime(process.uptime()), true)
             .setFooter('Stammtisch Bot', client.user.displayAvatarURL);
         message.channel.send({ embed });
