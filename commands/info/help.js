@@ -9,9 +9,9 @@ module.exports = {
         const embed = new RichEmbed()
             .setTitle('Commands')
             .setColor('RANDOM')
-            .addFields({ name: '§About', value: 'Infos über den Bot' }, { name: '§Help', value: 'Zeigt Commands des Bots' }, { name: '§Stats', value: 'Stats für Nerds' }, { name: '§Cock', value: '(NSFW) Grabbed von r/ratemycock Randompost' }, { name: '§Trap', value: '(NSFW) Grabbed von r/traps Randompost' }, { name: '§Pussy', value: '(NSFW) Grabbed von r/godpussy Randompost' }, { name: '§ww', value: 'Grabbed von r/wortwitzkasse Randompost' }, { name: '§Echo', value: 'Echo' }, { name: '§Ping', value: 'Ping... Pong!' }, { name: '§Pod', value: 'NASA Bild des Tages' }
-
-            )
+            .setDescription(cmdStr)
+            .setImage('https://brauen.de/media/image/cb/80/65/Die-Krone-des-Bieres-Wie-entsteht-der-Schaum-auf-dem-Bier.jpg')
+            .setFooter('© ŇƗŇĴΔ ŞΔŇ🐸#1337,ipear42#0384');
         message.channel.send({ embed });
     }
 };
