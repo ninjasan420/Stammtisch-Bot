@@ -1,8 +1,8 @@
 {
     "token": "process.env.BOT_TOKEN",
-    "prefix": "§",
+    "prefix": "?",
 
     "bot_settings": {
-        "bot_status": "§help"
+        "bot_status": "?help"
     }
 }
