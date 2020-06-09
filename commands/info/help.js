@@ -13,7 +13,7 @@ module.exports = {
             // .setDescription(cmdStr)
             .setImage(client.user.displayAvatarURL)
             .setFooter('© ŇƗŇĴΔ ŞΔŇ🐸#1337,ipear42#0384')
-            .addField({ '?help', 'Zeigt commands an', true });
+            .addField('?help', 'Zeigt commands an', true);
         message.channel.send({ embed });
     },
 };
