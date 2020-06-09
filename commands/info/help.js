@@ -11,7 +11,7 @@ module.exports = {
             .setColor('RANDOM')
             .setAuthor('Commands')
             // .setDescription(cmdStr)
-            .setImage(client.user.displayAvatarURL)
+            // .setImage(client.user.displayAvatarURL)
             .setFooter('© ŇƗŇĴΔ ŞΔŇ🐸#1337,ipear42#0384')
             .addField('?help', 'Zeigt commands an', true)
             .addField('?ping', 'Ping... Pong!', true)
