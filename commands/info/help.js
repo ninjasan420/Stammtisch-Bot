@@ -10,9 +10,11 @@ module.exports = {
             .setTitle('Prost!')
             .setColor('RANDOM')
             .setAuthor('Commands')
-            .setDescription(cmdStr)
+            // .setDescription(cmdStr)
             .setImage(client.user.displayAvatarURL)
-            .setFooter('© ŇƗŇĴΔ ŞΔŇ🐸#1337,ipear42#0384');
+            .setFooter('© ŇƗŇĴΔ ŞΔŇ🐸#1337,ipear42#0384')
+            .addFields({ name: '?help', value: 'Zeigt commands an' })
+            .addField({ name: '?help', value: 'Zeigt commands an' });
         message.channel.send({ embed });
     }
 };
