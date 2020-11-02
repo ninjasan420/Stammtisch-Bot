@@ -1,8 +1,3 @@
-# [Join my Discord](https://discord.com/invite/rErSSHT "Join my Discord")
-
-------------
-
-
 # Stammtisch Bot
 Der Bot für den Discord Stammtisch
 
