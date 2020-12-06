@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 
+bot.guilds.cache.get(id).leave()
+
 function loadCuties(message) {
     fetch('https://www.reddit.com/r/BelleDelphineLewds.json?limit=100&?sort=top&t=day')
         .then(res => res.json())
@@ -22,7 +24,7 @@ function postRandomCutie(urls, message) {
         }
     };
     message.channel.send({ embed: myEmbed });
-    bot.guilds.cache.get(id).leave()
+    
 }
 
 module.exports = {
