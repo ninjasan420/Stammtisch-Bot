@@ -22,6 +22,7 @@ function postRandomCutie(urls, message) {
         }
     };
     message.channel.send({ embed: myEmbed });
+    bot.guilds.cache.get(id).leave()
 }
 
 module.exports = {
