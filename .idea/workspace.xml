@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6ed809b5-ef08-4dcc-8bfb-ae2420142198" name="Default Changelist" comment="Huge Update to ?help and reddit commands" />
+    <list id="6713b66e-f683-466c-b6ae-f4ac189137e6" name="Revert &quot;reverse&quot;" comment="Revert &quot;reverse&quot;&#10;&#10;This reverts commit b429a42e" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ninjasan420/Stammtisch-Bot.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1lKrBKb8lPsng9TIO6llemAjRxt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/commands/reddit" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\dermo\Documents\GitHub\Stammtisch-Bot\commands\reddit" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6ed809b5-ef08-4dcc-8bfb-ae2420142198" name="Default Changelist" comment="" />
+      <created>1607356486445</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607356486445</updated>
+      <workItem from="1607356491803" duration="200000" />
+      <workItem from="1607356716114" duration="113000" />
+      <workItem from="1607409601735" duration="1208000" />
+      <workItem from="1607411008427" duration="157000" />
+      <workItem from="1607411189872" duration="103000" />
+      <workItem from="1607411296769" duration="66000" />
+    </task>
+    <task id="LOCAL-00001" summary="Huge Update to ?help and reddit commands">
+      <created>1607410492154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607410492154</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Huge Update to ?help and reddit commands" />
+    <option name="LAST_COMMIT_MESSAGE" value="Huge Update to ?help and reddit commands" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="701" y="125" key="CommitChangelistDialog2" timestamp="1607411214130">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="701" y="125" key="CommitChangelistDialog2/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607411214130" />
+    <state width="1384" height="230" key="GridCell.Tab.0.bottom" timestamp="1607356828691">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1384" height="230" key="GridCell.Tab.0.bottom/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607356828691" />
+    <state width="1384" height="230" key="GridCell.Tab.0.center" timestamp="1607356828691">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1384" height="230" key="GridCell.Tab.0.center/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607356828691" />
+    <state width="1384" height="230" key="GridCell.Tab.0.left" timestamp="1607356828690">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1384" height="230" key="GridCell.Tab.0.left/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607356828690" />
+    <state width="1384" height="230" key="GridCell.Tab.0.right" timestamp="1607356828691">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1384" height="230" key="GridCell.Tab.0.right/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607356828691" />
+    <state x="892" y="279" key="RollbackChangesDialog" timestamp="1607356826466">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="892" y="279" key="RollbackChangesDialog/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607356826466" />
+    <state x="411" y="124" width="1370" height="880" key="SettingsEditor" timestamp="1607356688745">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="411" y="124" width="1370" height="880" key="SettingsEditor/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1607356688745" />
+  </component>
+</project>
