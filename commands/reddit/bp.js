@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 function loadCuties(message) {
-    fetch('https://www.reddit.com/r/BelleDelphineLewds.json?limit=100&?sort=top&t=day')
+    fetch('https://www.reddit.com/r/BustyPetite.json?limit=100&?sort=top&t=day')
         .then(res => res.json())
         .then(json => json.data.children.map(v => v.data))
         .then(urls => postRandomCutie(urls, message))
@@ -22,12 +22,11 @@ function postRandomCutie(urls, message) {
         }
     };
     message.channel.send({ embed: myEmbed });
-    
 }
 
 module.exports = {
-    name: 'belle',
-    aliases: ['belledelphin'],
+    name: 'bp',
+    aliases: ['bustypetite'],
 
     execute(client, message, args) {
         try {
