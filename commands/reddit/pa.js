@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 function loadCuties(message) {
-    fetch('https://www.reddit.com/r/BelleDelphineLewds.json?limit=100&?sort=top&t=day')
+    fetch('https://www.reddit.com/r/ProgrammerAnimemes.json?limit=100&?sort=hot')
         .then(res => res.json())
         .then(json => json.data.children.map(v => v.data))
         .then(urls => postRandomCutie(urls, message))
@@ -26,8 +26,8 @@ function postRandomCutie(urls, message) {
 }
 
 module.exports = {
-    name: 'belle',
-    aliases: ['belledelphin'],
+    name: 'pa',
+    aliases: ['programmeranimemes'],
 
     execute(client, message, args) {
         try {
