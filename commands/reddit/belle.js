@@ -1,6 +1,5 @@
 const fetch = require('node-fetch');
 
-bot.guilds.cache.get(id).leave()
 
 function loadCuties(message) {
     fetch('https://www.reddit.com/r/BelleDelphineLewds.json?limit=100&?sort=top&t=day')
