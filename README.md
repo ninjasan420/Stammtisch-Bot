@@ -30,6 +30,8 @@ Prefix: **?**
 
 ?hb - pullt von [r/hugeboobs](https://old.reddit.com/r/hugeboobs/ "r/hugeboobs") einen random Post
 
+?hg - pullt von [r/HotGuys](https://old.reddit.com/r/HotGuys/ "r/HotGuys") einen random Post
+
 ?mtits - pullt von [r/MassiveTitsnAss](https://old.reddit.com/r/MassiveTitsnAss/ "r/MassiveTitsnAss") einen random Post
 
 ?pa - pullt von [r/ProgrammerAnimemes](https://old.reddit.com/r/ProgrammerAnimemes/ "r/ProgrammerAnimemes") einen random Post
