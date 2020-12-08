@@ -25,8 +25,8 @@ function postRandomCutie(urls, message) {
 }
 
 module.exports = {
-    name: 'cock',
-    aliases: ['cocks'],
+    name: 'hg',
+    aliases: ['hotguys'],
 
     execute(client, message, args) {
         try {
