@@ -16,13 +16,13 @@
     "author": "ninjasan420, PossumInABox",
     "license": "MIT",
     "dependencies": {
-        "@vitalets/google-translate-api": "^3.0.0",
         "axios": "^0.18.x",
         "discord.js": "^11.6.4",
-        "discord.js-commando": "github:discordjs/Commando",
         "glob": "^7.1.2",
-        "mongoose": "^5.9.17",
         "node": "^12.18.x",
-        "node-fetch": "^2.6.x"
+        "node-fetch": "^2.6.x",
+        "mongoose": "^5.9.17",
+        "discord.js-commando": "github:discordjs/Commando",
+        "@vitalets/google-translate-api": "^3.0.0"
     }
 }
