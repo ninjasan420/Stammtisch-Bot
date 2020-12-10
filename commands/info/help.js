@@ -20,6 +20,7 @@ module.exports = {
             .addField('?cock', 'Random Cock [NSFW]', true)
             .addField('?btg', 'BigTitteyGoth [NSFW]', true)
             .addField('?bp', 'Busty Petite [NSFW]', true)
+            .addField('?bigass', 'BigAss [NSFW]', )
             .addField('?hb', 'HUGE boobs [NSFW]', true)
             .addField('?thicc', 'Thicc Asses [NSFW]', true)
             .addField('?bondage', 'Bondage [NSFW]', true)

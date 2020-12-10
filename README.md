@@ -22,6 +22,8 @@ Prefix: **?**
 
 ?bondage - pullt von [r/bondage](https://old.reddit.com/r/bondage/ "r/bondage") einen random Post
 
+?bigass - pullt von [r/bigasses](https://old.reddit.com/r/bigasses/ "r/bigasses") einen random Post
+
 ?bp - pullt von [r/BustyPetite](https://old.reddit.com/r/BustyPetite/ "r/BustyPetite") einen random Post
 
 ?btg - pullt von [r/bigtiddygothgf](https://old.reddit.com/r/bigtiddygothgf/ "r/bigtiddygothgf") einen random Post
@@ -38,7 +40,6 @@ Prefix: **?**
 
 ?thicc - pullt von [r/thiccerthanyouthought](https://old.reddit.com/r/thiccerthanyouthought/ "r/thiccerthanyouthought") einen random Post
 
-?thicc - pullt von [r/thiccerthanyouthought](https://old.reddit.com/r/thiccerthanyouthought/ "r/thiccerthanyouthought") einen random Post
 
 ?trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post
 
