@@ -1,5 +1,7 @@
-# Stammtisch Bot
-Der Bot für den Discord Stammtisch
+# **[INVITE THE BOT TO YOUR SERVER/LADE DEN BOT AUF DEINEN SERVER EIN](https://discord.com/api/oauth2/authorize?client_id=717984462406680608&permissions=522304&scope=bot)**
+
+# Stammtisch Bot || English
+Der Bot für den Discord Stammtisch (english version here)
 
 Prefix: **?** 
 
@@ -18,34 +20,34 @@ Prefix: **?**
 
 ### Fun & commands (mosly NSFW)
 
-?belle - pullt von [r/BelleDelphineLewds](https://old.reddit.com/r/BelleDelphineLewds/ "r/BelleDelphineLewds") einen random Post
+?belle - pullt von [r/BelleDelphineLewds](https://old.reddit.com/r/BelleDelphineLewds/ "r/BelleDelphineLewds") einen random Post [NSFW]
 
-?bondage - pullt von [r/bondage](https://old.reddit.com/r/bondage/ "r/bondage") einen random Post
+?bondage - pullt von [r/bondage](https://old.reddit.com/r/bondage/ "r/bondage") einen random Post [NSFW]
 
-?bigass - pullt von [r/bigasses](https://old.reddit.com/r/bigasses/ "r/bigasses") einen random Post
+?bigass - pullt von [r/bigasses](https://old.reddit.com/r/bigasses/ "r/bigasses") einen random Post [NSFW]
 
-?bp - pullt von [r/BustyPetite](https://old.reddit.com/r/BustyPetite/ "r/BustyPetite") einen random Post
+?bp - pullt von [r/BustyPetite](https://old.reddit.com/r/BustyPetite/ "r/BustyPetite") einen random Post [NSFW]
 
-?btg - pullt von [r/bigtiddygothgf](https://old.reddit.com/r/bigtiddygothgf/ "r/bigtiddygothgf") einen random Post
+?btg - pullt von [r/bigtiddygothgf](https://old.reddit.com/r/bigtiddygothgf/ "r/bigtiddygothgf") einen random Post [NSFW]
 
-?cock - pullt von [r/ratemycock](https://old.reddit.com/r/ratemycock/ "r/ratemycock") einen random Post
+?cock - pullt von [r/ratemycock](https://old.reddit.com/r/ratemycock/ "r/ratemycock") einen random Post [NSFW]
 
-?hb - pullt von [r/hugeboobs](https://old.reddit.com/r/hugeboobs/ "r/hugeboobs") einen random Post
+?hb - pullt von [r/hugeboobs](https://old.reddit.com/r/hugeboobs/ "r/hugeboobs") einen random Post [NSFW]
 
-?hg - pullt von [r/HotGuys](https://old.reddit.com/r/HotGuys/ "r/HotGuys") einen random Post
+?hg - pullt von [r/HotGuys](https://old.reddit.com/r/HotGuys/ "r/HotGuys") einen random Post [NSFW]
 
-?mtits - pullt von [r/MassiveTitsnAss](https://old.reddit.com/r/MassiveTitsnAss/ "r/MassiveTitsnAss") einen random Post
+?mtits - pullt von [r/MassiveTitsnAss](https://old.reddit.com/r/MassiveTitsnAss/ "r/MassiveTitsnAss") einen random Post [NSFW]
 
-?pa - pullt von [r/ProgrammerAnimemes](https://old.reddit.com/r/ProgrammerAnimemes/ "r/ProgrammerAnimemes") einen random Post
+?pa - pullt von [r/ProgrammerAnimemes](https://old.reddit.com/r/ProgrammerAnimemes/ "r/ProgrammerAnimemes") einen random Post [NSFW]
 
-?thicc - pullt von [r/thiccerthanyouthought](https://old.reddit.com/r/thiccerthanyouthought/ "r/thiccerthanyouthought") einen random Post
+?thicc - pullt von [r/thiccerthanyouthought](https://old.reddit.com/r/thiccerthanyouthought/ "r/thiccerthanyouthought") einen random Post [NSFW]
 
 
-?trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post
+?trap - pullt von [r/traps](https://old.reddit.com/r/traps "r/traps") einen random Post [NSFW]
 
-?pussy - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post
+?pussy - pullt von [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") einen random Post [NSFW]
 
-?ww - pullt von [r/wortwitzkasse](https://old.reddit.com/r/wortwitzkasse/ "r/wortwitzkasse") einen random Post
+?ww - pullt von [r/wortwitzkasse](https://old.reddit.com/r/wortwitzkasse/ "r/wortwitzkasse") einen random Post 
 
 ?pod - Postet das NASA Picture of the day
 
@@ -66,15 +68,62 @@ und tippe: `npm install` um den Bot zu installieren
 
 3. `client.login(process.env.BOT_TOKEN);` bei heroku unter `Settings => Config Vars` definieren: `BOT_TOKEN` = Value
 
-4. Unter `Overview` den Bot als worker definieren
+4. Unter `Overview` den Bot als `worker` definieren
 
 5. `Prefix` unter `config.json` definieren
 
-**WICHTIG**
+Wenn alles funktioniert hat, kannst du den Bot mit `node app.js` ausführen.
 
-Um `node-opus` unter Windows zu installieren, musst du `windows-build-tools` installiert haben. Dies funktioniert so: `npm install -g --production windows-build-tools`
+## Stammtisch bot
 
-Ausserdem brauchst du `FFMPEG`, welches du so installieren kannst: `npm install -g ffmpeg-binaries`
+A fun bot, mostly to post NSFW stuff.
 
-Wenn alles funktioniert hast, kannst du den Bot mit `node app.js` ausführen.
+Prefix: **?** 
 
+## Commands:
+
+### Info
+
+?about - Infos about the bot
+
+?help - Shows commands as embed
+
+?stats - uptime, etc
+
+?ping - Ping to your host
+
+
+### Fun & commands (mosly NSFW)
+
+?belle - pulling a random post off [r/BelleDelphineLewds](https://old.reddit.com/r/BelleDelphineLewds/ "r/BelleDelphineLewds") [NSFW]
+
+?bondage - pulling a random post off [r/bondage](https://old.reddit.com/r/bondage/ "r/bondage") [NSFW]
+
+?bigass - pulling a random post off [r/bigasses](https://old.reddit.com/r/bigasses/ "r/bigasses") [NSFW]
+
+?bp - pulling a random post off [r/BustyPetite](https://old.reddit.com/r/BustyPetite/ "r/BustyPetite") [NSFW]
+
+?btg - pulling a random post off [r/bigtiddygothgf](https://old.reddit.com/r/bigtiddygothgf/ "r/bigtiddygothgf") [NSFW]
+
+?cock - pulling a random post off [r/ratemycock](https://old.reddit.com/r/ratemycock/ "r/ratemycock") [NSFW]
+
+?hb - pulling a random post off [r/hugeboobs](https://old.reddit.com/r/hugeboobs/ "r/hugeboobs") [NSFW]
+
+?hg - pulling a random post off [r/HotGuys](https://old.reddit.com/r/HotGuys/ "r/HotGuys")
+
+?mtits - pulling a random post off [r/MassiveTitsnAss](https://old.reddit.com/r/MassiveTitsnAss/ "r/MassiveTitsnAss") [NSFW]
+
+?pa - pulling a random post off [r/ProgrammerAnimemes](https://old.reddit.com/r/ProgrammerAnimemes/ "r/ProgrammerAnimemes") [may be NSFW]
+
+?thicc - pulling a random post off [r/thiccerthanyouthought](https://old.reddit.com/r/thiccerthanyouthought/ "r/thiccerthanyouthought") [NSFW]
+
+
+?trap - pulling a random post off [r/traps](https://old.reddit.com/r/traps "r/traps") [NSFW]
+
+?pussy - pulling a random post off [r/godpussy](https://old.reddit.com/r/godpussy "r/pussy") [NSFW]
+
+?ww - pulling a random post off [r/wortwitzkasse](https://old.reddit.com/r/wortwitzkasse/ "r/wortwitzkasse") 
+
+?pod - Posting NASA's picture of the day
+
+?echo - echo
