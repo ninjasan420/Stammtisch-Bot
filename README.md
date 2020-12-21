@@ -3,7 +3,7 @@
 ### **[INVITE THE BOT TO YOUR SERVER / LADE DEN BOT AUF DEINEN SERVER EIN](https://discord.com/api/oauth2/authorize?client_id=717984462406680608&permissions=522304&scope=bot)**
 
 # Stammtisch Bot || English
-Der Bot für den Discord Stammtisch (english version here)
+Der Bot für den Discord Stammtisch (english version at bottom)
 
 Prefix: **?** 
 
