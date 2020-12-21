@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 function loadCuties(message) {
-    fetch('https://old.reddit.com/r/gonewildmetal.json?limit=100&?sort=top&t=day')
+    fetch('https://old.reddit.com/r/gonewildmetal.json?limit=100&?sort=top&t=week')
         .then(res => res.json())
         .then(json => json.data.children.map(v => v.data))
         .then(urls => postRandomCutie(urls, message))
