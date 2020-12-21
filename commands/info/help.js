@@ -28,6 +28,7 @@ module.exports = {
             .addField('?pussy', 'Random Pussy [NSFW] ', true)
             .addField('?simps', 'Random Simp(sons) Pussy [NSFW] ', true)
             .addField('?mtits', 'Random MassiveTitsAndAss [NSFW] ', true)
+            .addField('?mg', 'Random metal girl [NSFW] ', true)
             .addField('?ww', 'Wortwitz', true)
             .addField('?pod', 'Zeigt NASA picture of the day', true);
         message.channel.send({ embed });
