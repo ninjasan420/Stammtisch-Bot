@@ -1,6 +1,6 @@
 [<img src="https://snrclan.com/wp-content/uploads/2020/02/join-discord-png-13.png">](https://discord.gg/rErSSHT)
 
-### **[INVITE THE BOT TO YOUR SERVER/LADE DEN BOT AUF DEINEN SERVER EIN](https://discord.com/api/oauth2/authorize?client_id=717984462406680608&permissions=522304&scope=bot)**
+### **[INVITE THE BOT TO YOUR SERVER / LADE DEN BOT AUF DEINEN SERVER EIN](https://discord.com/api/oauth2/authorize?client_id=717984462406680608&permissions=522304&scope=bot)**
 
 # Stammtisch Bot || English
 Der Bot für den Discord Stammtisch (english version here)
