@@ -16,7 +16,7 @@
     "author": "ninjasan420, PossumInABox",
     "license": "MIT",
     "dependencies": {
-        "axios": "^0.18.x",
+        "axios": "^0.21.x",
         "discord.js": "^11.6.4",
         "glob": "^7.1.2",
         "node": "^12.18.x",
