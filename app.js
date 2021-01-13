@@ -41,8 +41,8 @@ client.on('ready', () => {
 
     client.user.setActivity(config.bot_settings.bot_status);
 
-    client.channels.get(`718459138513961013`).send(`Master Bot wurde deployed & ist ready`)
-    client.channels.get(`718974305660305418`).send(`Dev Bot wurde deployed & ist ready`)
+    client.channels.get(`709727369979756624`).send(`Master Bot wurde deployed & ist ready`)
+    client.channels.get(`709727369979756624`).send(`Dev Bot wurde deployed & ist ready`)
 })
 
 
