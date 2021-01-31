@@ -16,7 +16,7 @@
     "author": "ninjasan420, PossumInABox, Kysul",
     "license": "MIT",
     "dependencies": {
-        "@vitalets/google-translate-api": "^3.0.0",
+        "@vitalets/google-translate-api": "^5.0.0",
         "axios": "^0.21.x",
         "discord.js": "^12.0.1",
         "discord.js-commando": "github:discordjs/Commando",
