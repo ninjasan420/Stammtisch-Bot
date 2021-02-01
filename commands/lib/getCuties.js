@@ -35,6 +35,9 @@ function postRandomCutie(urls, message) {
             }
         )
     } else {
+        if (myEmbed.image.url.includes('.gifv')) {
+            myEmbed.image.url.replace('.gifv', '.mp4')
+        }
         message.channel.send({ embed: myEmbed });
     }
 
