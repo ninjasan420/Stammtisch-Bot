@@ -1,8 +1,11 @@
 const fetch = require('node-fetch');
 const redgifs = require("./redgifs")
 
-var loadCuties = function (message, subreddit) {
-    fetch(subreddit+'.json?limit=100&?sort=top&t=week')
+var loadCuties = function (message, subreddit, sorting) {
+    if (sorting === '') {
+        sorting = '?sort=top&t=week'
+    }
+    fetch(subreddit+'.json?limit=100&' + sorting)
         .then(res => res.json())
         .then(json => json.data.children.map(v => v.data))
         .then(urls => postRandomCutie(urls, message))
@@ -19,7 +22,7 @@ function postRandomCutie(urls, message) {
         title: urls[randomNumber].title,
         url: 'https://reddit.com' + urls[randomNumber].permalink,
         image: {
-            url: urls[randomNumber].url,
+            url: urls[randomNumber].url_overridden_by_dest,
         }
     };
 
