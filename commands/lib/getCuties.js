@@ -30,8 +30,9 @@ function postRandomCutie(urls, message) {
         let redgifLink = redgifs.getHotlink(myEmbed.image.url)
         redgifLink.then(
             redgifLink => {
-                myEmbed.image.url = redgifLink
-                message.channel.send({ embed: myEmbed });
+                //myEmbed.image.url = redgifLink
+                //message.channel.send({ embed: myEmbed });
+                message.channel.send(redgifLink)
             }
         )
     } else {
