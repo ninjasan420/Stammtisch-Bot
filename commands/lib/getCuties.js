@@ -3,7 +3,7 @@ const redgifs = require("./redgifs")
 
 var loadCuties = function (message, subreddit, sorting) {
     if (sorting === '') {
-        sorting = '?sort=top&t=week'
+        sorting = 'sort=top&t=day'
     }
     fetch(subreddit+'.json?limit=100&' + sorting)
         .then(res => res.json())
