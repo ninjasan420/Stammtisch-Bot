@@ -1,7 +1,7 @@
 const getCuties = require("../lib/getCuties")
 
 let subreddit = 'https://old.reddit.com/r/gonewildmetal'
-let sorting = ''
+let sorting = 'sort=top&t=week'
 
 module.exports = {
     name: 'mg',
