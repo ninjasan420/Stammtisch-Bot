@@ -1,28 +1,6 @@
-const fetch = require('node-fetch');
+const getCuties = require("../lib/getCuties")
 
-function loadCuties(message) {
-    fetch('https://old.reddit.com/r/gonewildmetal.json?limit=100&?sort=top&t=week')
-        .then(res => res.json())
-        .then(json => json.data.children.map(v => v.data))
-        .then(urls => postRandomCutie(urls, message))
-        .catch(error => console.log(error.message));
-}
-
-function postRandomCutie(urls, message) {
-    let randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
-    if (urls[randomNumber].pinned === true) {
-        randomNumber = Math.floor(Math.random() * urls.length - 1) + 1;
-    }
-
-    let myEmbed = {
-        title: urls[randomNumber].title,
-        url: 'https://reddit.com' + urls[randomNumber].permalink,
-        image: {
-            url: urls[randomNumber].url,
-        }
-    };
-    message.channel.send({ embed: myEmbed });
-}
+let subreddit = 'https://old.reddit.com/r/gonewildmetal'
 
 module.exports = {
     name: 'mg',
@@ -30,7 +8,7 @@ module.exports = {
 
     execute(client, message, args) {
         try {
-            loadCuties(message);
+            getCuties.loadCuties(message, subreddit);
         } catch (err) {
             console.log(err);
         }
