@@ -30,6 +30,7 @@ module.exports = {
             .addField('?mtits', 'Random MassiveTitsAndAss [NSFW] ', true)
             .addField('?mg', 'Random metal girl [NSFW] ', true)
             .addField('?ww', 'Wortwitz', true)
+            .addField('?fart', 'Fart', true)
             .addField('?pod', 'Zeigt NASA picture of the day', true);
         message.channel.send({ embed });
     },
