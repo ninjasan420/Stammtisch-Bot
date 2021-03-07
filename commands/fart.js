@@ -23,8 +23,7 @@ module.exports = {
 
     execute(client, message,args) {
         try {
-            'Du Pupa! :3',
-            getRandomGif(message);
+            ('Du Pupa! :3', getRandomGif(message));
         } catch (err) {
             console.log(err);
         }
