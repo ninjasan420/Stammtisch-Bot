@@ -16,15 +16,19 @@ function getRandomGif(gifs) {
     return gifs[num]
 }
 
+let chosenGif = getRandomGif(gifs)
+let message = chosenGif.message
+let url = chosenGif.url
+
+
 module.exports = {
     name: 'fart', // command name - wird nach prefix angeführt
     aliases: ['pups'], //
 
 
-    execute(client, message, args) {
-        'Du Pupa! :3'
+    execute(client, message,args) {
         try {
-            getRandomGif(message);
+            (getRandomGif, 'Du Pupa! :3');
         } catch (err) {
             console.log(err);
         }
