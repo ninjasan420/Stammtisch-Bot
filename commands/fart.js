@@ -21,9 +21,10 @@ module.exports = {
     aliases: ['pups'], //
 
 
-    execute(client, message,args) {
+    execute(client, message, args) {
+        'Du Pupa! :3'
         try {
-            ('Du Pupa! :3', getRandomGif(message));
+            getRandomGif(message);
         } catch (err) {
             console.log(err);
         }
