@@ -24,6 +24,4 @@ module.exports = {
     execute(client, message,args) {
         message.channel.send('Du Pupa! :3', getRandomGif)
             }
-    }
-    
-};
+    };
