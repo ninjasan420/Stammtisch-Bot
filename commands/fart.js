@@ -3,6 +3,6 @@ module.exports = {
     aliases: ['pups'], //
 
     execute(client, message) {
-        message.channel.send('Du Pupa! :3 {files: ["assets/images/fart1.gif"]} ')
+        message.channel.send('Du Pupa! :3', {files: ["assets/images/fart1.gif"]})
             }
     };
